@@ -1,0 +1,9 @@
+h1{color:red;}
+ul{
+    border:1px solid red;
+    li{color: red;}
+}
+//scss ->css COMPILE
+//컴파일러 설치! (node - npm)
+// Ctrl + Shift + p 팔레트
+//sass --watch 파일명.확장자 컴파일할 파일명.확장자
