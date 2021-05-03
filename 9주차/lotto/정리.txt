@@ -1,0 +1,2 @@
+lotto.sort((a,b)=>a-b); //숫자를 정렬
+lotto.push(7);   // 배열의 마지막에 값 추가
