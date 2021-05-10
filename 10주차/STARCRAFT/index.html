@@ -19,7 +19,8 @@
       $("#drone").click(function() {
           console.log("침 발사");
           $("#spit").fadeIn();
-          $("#spit").animate({left: '+= 250'})
+          $("#spit").animate({left: '+=250'});
+          $("#spit").css({left:'150px'});
           $("#spit").fadeOut(function(){
             hp = hp - 5;
             $("#hp").text("HP: " + hp);
@@ -27,7 +28,6 @@
             $("#bunker").fadeOut();
             } 
           });
-          $("#spit").css({left:'150px'});
         })
     </script>
 </body>
