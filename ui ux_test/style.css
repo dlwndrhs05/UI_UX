@@ -97,13 +97,38 @@ article {
 .result {
     display: none;
 }
-.result-message{
-    margin:0 auto;
+#mbti{
+    color:#007bff
 }
-#img{
-    width: 300px;
+.img{
+    float: left;
+    width:300px;
     height: 300px;
+    display: inline;
+    margin: 0  auto;
+    padding:55px;
+}
+.imgdiv{
+    text-align: center;
     margin: 0 auto;
+}
+.Explanationdiv{
+    text-align: center;
+    margin: 0 auto;
+}
+#Line,#position{
+    float: left;
+    display: inline;
+    margin-left:150px;
+    margin-right:150px;
+    padding-top: 20px;
+}
+#yourLine,#yourposition{
+    float: left;
+    display: inline;
+    margin:0 auto;
+    margin-left:30px;
+    margin-right:30px;
 }
 .share{
     margin:0 auto;
