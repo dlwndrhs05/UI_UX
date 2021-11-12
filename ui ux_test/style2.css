@@ -1,0 +1,127 @@
+body{
+    /* background-color: #1f1f1f; */
+    background-color: #ffffff;
+    /* color:#ffffff; */
+    color: #1f1f1f;
+    font-family: 'Noto Sans KR',sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.background{
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+article {
+    display: flex;
+    flex-direction: column;
+}
+.btn-thema{
+    margin-top:5px;
+}
+.btn-outline-dark:hover{
+    color:#ff9300;
+}
+.question {
+    display: none;
+}
+.main-title {
+    /* color: #7c7c7c; */
+    
+}
+.sub-title{
+    font-size: 24px;
+    font-weight: 100;
+    /*color: #ebebeb;*/
+    color: #1f1f1f;
+}
+.updown-slash {
+    width: 166px;
+    margin: 0 auto;
+}
+.start{
+    margin-top:150px;
+}
+.start-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-start {
+    font-size: 16px;
+    color:#ff9300;
+    background-color:#383a43;
+    border:#1f1f1f;
+}
+.btn-start:hover, .btn-start:active{
+    font-size: 16px;
+    /* background-color: #ff9300;
+    border: #1f1f1f; */
+}
+.question-content {
+    font-size: 14px;
+    /* color: #ff9300; */
+}
+.btn-answer, .btn-answer:focus, .btn-answer:active {
+    /* background-color: #363636; */
+    /* border:#1f1f1f; */
+    width: 288px;
+    margin: 0 auto;
+    font-size: 13px;
+    /* color: #ffffff; */
+    outline: none;
+    box-shadow: none;   
+  }
+  .btn-answer:hover {  
+    /* background-color: #ff9300;
+    border:#1f1f1f; */
+    width: 288px; 
+    margin: 0 auto; 
+    font-size: 13px; 
+    color: #ffffff;  
+  }
+.progress-bar {
+    /* background-color: #ff9300; */
+}
+.progress {
+    /* background-color: #525764; */
+}
+.question-content {
+    font-size: 14px;
+    /* color: #ff9300; */
+}
+.rectangle {
+    width: 288px;
+    height: 8px;
+    /* background-color: #383a43; */
+    margin: 0 auto;
+  }
+  .mid-rectangle {
+    width: 288px;
+    height: 1px;
+    /* background-color: #383a43; */
+    margin: 0 auto;
+  }
+
+.updown-slash {
+    width: 166px;
+    margin: 0 auto;
+}
+.result {
+    display: none;
+}
+.result-message{
+    margin:0 auto;
+}
+#img{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.share{
+    margin:0 auto;
+}
+.kakao_ad{
+    width:320px;
+    margin: 0 auto;
+}
